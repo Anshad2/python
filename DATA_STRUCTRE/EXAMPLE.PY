@@ -1,0 +1,6 @@
+# array
+# QUE
+# STACKS
+# LINKEDLIST
+# LINKEDTREE
+# TREES
