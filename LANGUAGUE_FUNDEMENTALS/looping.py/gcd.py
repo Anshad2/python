@@ -12,4 +12,10 @@ while(i<=smallest_num):
 print(fact)
 
 
+
+
+
 # 
+n1=int(input("what is your number"))
+n2=int(input("what is you number"))
+

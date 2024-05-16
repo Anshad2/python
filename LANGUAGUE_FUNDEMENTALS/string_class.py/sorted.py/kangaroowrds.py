@@ -21,38 +21,53 @@ else:
 
 
 
-
 # 
-source_word="savage"
-target_word="save"
+# source_word="savage"
+# target_word="save"
 
-s_lst1=[ch for ch in source_word]
-print(s_lst1)
-t_lst2=[ch for ch in target_word]
-print(t_lst2)
+# s_lst1=[ch for ch in source_word]
+# print(s_lst1)
+# t_lst2=[ch for ch in target_word]
+# print(t_lst2)
 
-for ch in t_lst2:
-    if ch in s_lst1:
-        s_lst1.remove(ch)
-    else:
-        print("not a kngarooword")
+# for ch in t_lst2:
+#     if ch in s_lst1:
+#         s_lst1.remove(ch)
+#     else:
+#         print("not a kngarooword")
+#         break
+# else:
+#     print("kangarooword")
+
+# # 
+
+
+
+
+# word="pneumonoultramicroscopicsilicovolcanoconiosis"
+# # most frequent word
+# word_lst=[ch for ch in word]
+# print(word_lst)
+# for w in word:
+#     count=max(word,key=lambda w:word.count(w))
+# print(count)
+
+
+s="manoj"
+t="mar"
+
+sp=[ ch for ch in s]
+print(sp)
+tp=[ch for ch in t]
+print(tp)
+
+for ch in tp:
+    if ch in sp:
+        sp.remove(ch)
+        print("kanga")
         break
-else:
-    print("kangarooword")
-
-# 
-
-
-
-
-word="pneumonoultramicroscopicsilicovolcanoconiosis"
-# most frequent word
-word_lst=[ch for ch in word]
-print(word_lst)
-for w in word:
-    count=max(word,key=lambda w:word.count(w))
-print(count)
-
+    else:
+        print("not kanga")
 
 
 

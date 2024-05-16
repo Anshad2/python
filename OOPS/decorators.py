@@ -29,6 +29,7 @@ def hello_decorators(fn):
           data="hello !"+ fn(user)
           return data
      return wrapper
+
 @hello_decorators
 def morning_greetings(user):
      return f"goodmorning {user}"

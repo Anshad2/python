@@ -1,5 +1,4 @@
 # from re import *
-
 # text="kaBczabc 9@7c"
 # pattern="[ac]"# a or c
 # matcher=finditer(pattern,text)
@@ -57,11 +56,11 @@
 
 
 # "[^a-zA-z0-9]" excluded
-from re import *
-text="kaBczabc 9@7c"# 8 th position is space
-pattern="[^a-zA-Z0-9]"# exclude 
-matcher=finditer(pattern,text)
-for m in matcher:
-    print(m.start(),m.group())
+# from re import *
+# text="kaBczabc 9@7c"# 8 th position is space
+# pattern="[^a-zA-Z0-9]"# exclude 
+# matcher=finditer(pattern,text)
+# for m in matcher:
+#     print(m.start(),m.group())
 
 # 

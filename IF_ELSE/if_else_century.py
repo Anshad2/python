@@ -6,7 +6,7 @@ else:
     print("the number is odd")
 
  # century year
-# 2 number give largest comapre
+# 2 number given largest comapre
 
 year=int(input("type your century year"))
 if year % 100 == 0:

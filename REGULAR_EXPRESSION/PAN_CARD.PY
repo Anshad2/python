@@ -36,8 +36,18 @@
 
 
 
+# from re import *
+# DOB=input("enter dob in dd-mm-yyyy")
+# rule="(0[1-9]|[12][0-9]|3[0-1])-(0[1-9]|1[0-2])-(19|20)[0-9]{2}"
+# matcher=fullmatch(rule,DOB)
+# print("invalid" if matcher==None else "valid")
+
+
 from re import *
-DOB=input("enter dob in dd-mm-yyyy")
-rule="(0[1-9]|[12][0-9]|3[0-1])-(0[1-9]|1[0-2])-(19|20)[0-9]{2}"
-matcher=fullmatch(rule,DOB)
-print("invalid" if matcher==None else "valid")
+password = input("password ? ")
+pattern = r'^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[\W]).{8,}$'
+if match(pattern,password):
+# matcher=fullmatch(Pattern,password)
+    print("true")
+else:
+    print("false")

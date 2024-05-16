@@ -43,7 +43,9 @@ for i in range(0,len(string1)):
 print(result)
 
 
+
 # 
+
 srting1=input("enter string 1 : ")
 string2=input("enter string 2 : ")
 
